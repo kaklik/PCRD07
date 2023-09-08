@@ -2,7 +2,7 @@ description: 'Sample and hold circuit for photomultiplier and PIN diode pulse si
   processig '
 github_branch: PCRD06A
 github_repo: PCRD07
-github_url: https://github.com/kaklik/PCRD07
+github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
 images:
 - doc/img/PCRD06A_big_top.jpg
