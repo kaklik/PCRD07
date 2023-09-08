@@ -1,7 +1,7 @@
 bom: ''
 eda:
-  pcb: hw/sch_pcb/PCRD06.kicad_pcb
+  pcb: hw/sch_pcb/PCRD07.kicad_pcb
   type: kicad
 gerbers: hw/cam_profi/
-site: https://github.com/mlab-modules/PCRD06
-summary: Sample and hold circuit for photomultiplier pulse signal processig
+site: https://github.com/kaklik/PCRD07
+summary: 'Sample and hold circuit for photomultiplier and PIN diode pulse signal processig '

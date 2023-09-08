@@ -1,7 +1,8 @@
-description: Sample and hold circuit for photomultiplier pulse signal processig
+description: 'Sample and hold circuit for photomultiplier and PIN diode pulse signal
+  processig '
 github_branch: PCRD06A
-github_repo: PCRD06
-github_url: https://github.com/mlab-modules/PCRD06
+github_repo: PCRD07
+github_url: https://github.com/kaklik/PCRD07
 homepage: false
 images:
 - doc/img/PCRD06A_big_top.jpg
@@ -17,15 +18,5 @@ images:
 mark: 50
 mod_ibom: hw/cam_profi/ibom/PCRD06A-ibom.html
 mod_scheme: doc/gen/PCRD06A-schematic.pdf
-tags:
-- photomultiplier
-- sipm
-- analog-memory
-- mlab
-- mlab-module
-- kicad
-- kicad-pcb
-- kicad-project
-- mlab-kicad
-- pcb
-title: PCRD06
+tags: []
+title: PCRD07
