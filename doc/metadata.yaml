@@ -1,20 +1,21 @@
 description: 'Sample and hold circuit for photomultiplier and PIN diode pulse signal
   processig '
 github_branch: PCRD06A
+github_branches:
+- PCRD06A
 github_repo: PCRD07
 github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
+image: doc/gen/img/PCRD06A-bottom.png
 images:
-- doc/img/PCRD06A_big_top.jpg
-- doc/img/PCRD06A_big_bot.jpg
 - doc/gen/img/PCRD06A-bottom.png
 - doc/gen/img/PCRD06A-top.png
 - doc/img/Proposed_improvement.png
-- doc/img/PCRD06A_schematics.png
-- doc/img/PCRD06A_PC_big_top.png
-- doc/img/PCRD06A_QRcode.png
-- doc/img/PCRD06A_PC_big_bot.png
 - doc/gen/PCRD06A-schematic.svg
+- doc/gen/img/PCRD06A-top.svg
+- hw/cam_profi/docs/PCRD06A-assembly_page_02.svg
+- hw/cam_profi/docs/PCRD06A-assembly_page_01.svg
+issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/ibom/PCRD06A-ibom.html
 mod_scheme: doc/gen/PCRD06A-schematic.pdf
