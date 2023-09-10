@@ -9,11 +9,7 @@ github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
 image: doc/gen/img/PCRD06A-bottom.png
 images:
-- doc/gen/img/PCRD06A-bottom.png
-- doc/gen/img/PCRD06A-top.png
 - doc/img/Proposed_improvement.png
-- doc/gen/PCRD06A-schematic.svg
-- doc/gen/img/PCRD06A-top.svg
 - hw/cam_profi/docs/PCRD06A-assembly_page_02.svg
 - hw/cam_profi/docs/PCRD06A-assembly_page_01.svg
 issues: 0
