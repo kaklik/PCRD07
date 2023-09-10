@@ -9,13 +9,18 @@ github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
 image: doc/gen/img/PCRD06A-bottom.png
 images:
+- doc/gen/img/PCRD07-top.png
+- doc/gen/img/PCRD07-bottom.png
 - doc/img/Proposed_improvement.png
-- hw/cam_profi/docs/PCRD06A-assembly_page_02.svg
-- hw/cam_profi/docs/PCRD06A-assembly_page_01.svg
+- doc/gen/PCRD07-schematic.svg
+- doc/gen/img/PCRD07-top.svg
+- doc/gen/img/PCRD07-bottom.svg
+- hw/cam_profi/assembly/PCRD07-assembly_page_02.svg
+- hw/cam_profi/assembly/PCRD07-assembly_page_01.svg
 issues: 0
 mark: 50
-mod_ibom: hw/cam_profi/ibom/PCRD06A-ibom.html
-mod_scheme: doc/gen/PCRD06A-schematic.pdf
+mod_ibom: hw/cam_profi/PCRD07-ibom.html
+mod_scheme: doc/gen/PCRD07-schematic.pdf
 tags: []
 title: PCRD07
-updated: '2023-09-10T08:42:19.754076+00:00'
+updated: '2023-09-10T08:44:59.481180+00:00'
