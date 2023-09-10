@@ -18,14 +18,15 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 17,Inductor,L,L1,L,,1,~,
 18,,HOLE,M5,HOLE,Laird_Technologies_BMI-S-204-F_32.00x32.00mm,1,,
 19,Resistor,R,R1R10,10,SMD-0805,2,~,5c70984512875079b91f896d 5c70984512875079b91f8977
-20,Resistor,R,R2,50,,1,~,
-21,Resistor,R,R3R4R5R9R11R13,100,SMD-0805,6,~,5c70984512875079b91f8977
-22,Resistor,R,R6,100,,1,~,
-23,Resistor,R,R12,1k,SMD-0805,1,~,5c70984512875079b91f898c
-24,Resistor,R,R8,1k,R_0603_1608Metric,1,~,5c70984512875079b91f895c
-25,Resistor,R,R7,4k7,R_0603_1608Metric,1,~,5c70984512875079b91f8960
-26,"Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5",AD8691,U2U6,AD8691,TSOT-23-5_HandSoldering,2,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf,5d47c084128750448e6b4671
-27,"2.0V 25μA Micropower Voltage Reference, SOT-23",ISL21070CIH320Z-TK,U4,ISL21080DIH309,SOT-23,1,https://cz.mouser.com/datasheet/2/698/REN_isl21080_DST_20040119-1998038.pdf,5c70984712875079b91f8b0b
-28,"Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface",LTC1865-MS,U3,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,
-29,"Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5",AD8691,U1,TS3021ILT,SOT-23-5_HandSoldering,1,https://www.st.com/resource/en/datasheet/ts3021.pdf,5d47bfd4128750448e6b465e
-30,,TS5A4594,U5,TS5A4594,SOT-23-5_HandSoldering,1,https://www.ti.com/lit/ds/symlink/ts5a4594.pdf,5c70984612875079b91f8a0d
+20,Resistor,R,R13,50,SMD-0805,1,~,5c70984512875079b91f8977
+21,Resistor,R,R2,50,,1,~,
+22,Resistor,R,R3R4R5R9R11,100,SMD-0805,5,~,5c70984512875079b91f8977
+23,Resistor,R,R6,100,,1,~,
+24,Resistor,R,R12,1k,SMD-0805,1,~,5c70984512875079b91f898c
+25,Resistor,R,R8,1k,R_0603_1608Metric,1,~,5c70984512875079b91f895c
+26,Resistor,R,R7,4k7,R_0603_1608Metric,1,~,5c70984512875079b91f8960
+27,"Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5",AD8691,U2U6,AD8691,TSOT-23-5_HandSoldering,2,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8691_8692_8694.pdf,5d47c084128750448e6b4671
+28,"2.0V 25μA Micropower Voltage Reference, SOT-23",ISL21070CIH320Z-TK,U4,ISL21080DIH309,SOT-23,1,https://cz.mouser.com/datasheet/2/698/REN_isl21080_DST_20040119-1998038.pdf,5c70984712875079b91f8b0b
+29,"Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface",LTC1865-MS,U3,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,
+30,"Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5",AD8691,U1,TS3021ILT,SOT-23-5_HandSoldering,1,https://www.st.com/resource/en/datasheet/ts3021.pdf,5d47bfd4128750448e6b465e
+31,,TS5A4594,U5,TS5A4594,SOT-23-5_HandSoldering,1,https://www.ti.com/lit/ds/symlink/ts5a4594.pdf,5c70984612875079b91f8a0d
