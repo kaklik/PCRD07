@@ -21,7 +21,7 @@ issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/PCRD07-ibom.html
 mod_scheme: doc/gen/PCRD07-schematic.pdf
-status: 0
+status: 1
 tags: []
 title: PCRD07
 updated: '2023-09-16T16:34:19.194730+00:00'
