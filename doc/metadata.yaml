@@ -7,7 +7,7 @@ github_branches:
 github_repo: PCRD07
 github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
-image: doc/gen/img/PCRD06A-bottom.png
+image_title: doc/gen/img/PCRD06A-bottom.png
 images:
 - doc/gen/img/PCRD07-top.png
 - doc/gen/img/PCRD07-bottom.png
