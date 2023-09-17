@@ -4,6 +4,8 @@ github_branch: PCRD07A
 github_branches:
 - PCRD06A
 - PCRD07A
+github_description: 'Sample and hold circuit for photomultiplier and PIN diode pulse
+  signal processig '
 github_repo: PCRD07
 github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
@@ -24,4 +26,4 @@ mod_scheme: doc/gen/PCRD07-schematic.pdf
 status: 1
 tags: []
 title: PCRD07
-updated: '2023-09-16T22:02:07.736007+00:00'
+updated: '2023-09-17T11:04:03.956755+00:00'
