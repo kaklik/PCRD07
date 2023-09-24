@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PCRD07.kicad_sch</source>
-    <date>Wed Sep 20 22:24:31 2023</date>
+    <date>Sun Sep 24 20:36:24 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -597,14 +597,21 @@
       <tstamps>00000000-0000-0000-0000-00005b3d3f18</tstamps>
     </comp>
     <comp ref="M5">
-      <value>HOLE</value>
+      <value>RFShield_TwoPieces</value>
       <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
-      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <fields>
+        <field name="UST_ID">5c72751c1287500b4e11301a</field>
+        <field name="UST_ID2">5c7275631287500b4e11302f</field>
+      </fields>
+      <libsource lib="Device" part="RFShield_TwoPieces" description="Two-piece EMI RF shielding cabinet"/>
+      <property name="UST_ID" value="5c72751c1287500b4e11301a"/>
+      <property name="UST_ID2" value="5c7275631287500b4e11302f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
-      <property name="ki_keywords" value="HOLE, X, M"/>
+      <property name="ki_description" value="Two-piece EMI RF shielding cabinet"/>
+      <property name="ki_keywords" value="RF EMI shielding cabinet"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005d4c907d</tstamps>
+      <tstamps>fbcf1a5e-1006-462d-ad24-db3370ee7afe</tstamps>
     </comp>
     <comp ref="R1">
       <value>10</value>
@@ -1035,6 +1042,18 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="RFShield_TwoPieces">
+      <description>Two-piece EMI RF shielding cabinet</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RFShield_TwoPieces</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x01">
       <description>2x01 2.54 mm pitch header</description>
       <fields>
@@ -1243,7 +1262,7 @@
       <node ref="M2" pin="1" pintype="input"/>
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
-      <node ref="M5" pin="1" pintype="input"/>
+      <node ref="M5" pin="1" pinfunction="Shield" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="DGND" pintype="power_in"/>
     </net>
     <net code="8" name="GNDA">

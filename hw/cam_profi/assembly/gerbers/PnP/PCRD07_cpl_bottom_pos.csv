@@ -24,7 +24,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",39.6240,38.8620,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",11.1760,2.1590,180.0000,bottom
 "L1","L","L_0805_2012Metric",4.5720,23.8760,90.0000,bottom
-"M5","HOLE","Laird_Technologies_BMI-S-204-F_32.00x32.00mm",25.4000,20.8280,0.0000,bottom
+"M5","RFShield_TwoPieces","Laird_Technologies_BMI-S-204-F_32.00x32.00mm",25.4000,20.8280,0.0000,bottom
 "R1","10","R_0805_2012Metric",32.0040,30.9245,90.0000,bottom
 "R2","50","R_0805_2012Metric",22.3520,22.0980,0.0000,bottom
 "R3","100","R_0805_2012Metric",29.4640,27.8765,-90.0000,bottom

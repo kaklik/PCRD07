@@ -41,7 +41,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "M2","HOLE","MountingHole_3mm",45.7200,5.0800,0.0000,top
 "M3","HOLE","MountingHole_3mm",45.7200,35.5600,0.0000,top
 "M4","HOLE","MountingHole_3mm",5.0800,5.0800,0.0000,top
-"M5","HOLE","Laird_Technologies_BMI-S-204-F_32.00x32.00mm",25.4000,20.8280,0.0000,bottom
+"M5","RFShield_TwoPieces","Laird_Technologies_BMI-S-204-F_32.00x32.00mm",25.4000,20.8280,0.0000,bottom
 "R1","10","R_0805_2012Metric",32.0040,30.9245,90.0000,bottom
 "R2","50","R_0805_2012Metric",22.3520,22.0980,0.0000,bottom
 "R3","100","R_0805_2012Metric",29.4640,27.8765,-90.0000,bottom
