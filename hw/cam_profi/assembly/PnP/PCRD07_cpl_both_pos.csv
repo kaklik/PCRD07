@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-"C1","47uF","CP_EIA-6032-28_Kemet-C",62.4840,27.9400,90.0000,bottom
+"C1","100nF","C_0805_2012Metric",57.9120,20.8280,90.0000,bottom
 "C2","220pF","C_0805_2012Metric",22.8600,20.8280,90.0000,bottom
 "C3","10uF","CP_EIA-3216-18_Kemet-A",49.1490,32.7660,-90.0000,bottom
 "C4","10uF","C_0805_2012Metric",55.8800,17.5260,0.0000,bottom
@@ -14,30 +14,30 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C13","100nF","C_0805_2012Metric",28.6550,22.2860,180.0000,bottom
 "C14","100nF","C_0805_2012Metric",35.0520,15.2400,-90.0000,bottom
 "C15","100nF","C_0805_2012Metric",33.2740,29.5910,180.0000,bottom
-"C16","10uF","CP_EIA-3216-18_Kemet-A",14.7320,16.5100,-90.0000,bottom
-"C17","100nF","C_0805_2012Metric",14.7320,20.8280,90.0000,bottom
+"C16","10uF","CP_EIA-3216-18_Kemet-A",14.4780,16.5100,-90.0000,bottom
+"C17","100nF","C_0805_2012Metric",14.4780,20.9550,90.0000,bottom
 "C18","100nF","C_0805_2012Metric",46.7360,33.4010,-90.0000,bottom
 "C19","100pF FILM,PPS","C_0805_2012Metric",41.4020,15.4940,0.0000,bottom
 "C20","100nF","C_0805_2012Metric",42.6720,32.5120,180.0000,bottom
 "C21","1uF","FIR_0805",54.8640,20.8280,-90.0000,bottom
 "C22","100nF","C_0805_2012Metric",24.2570,37.2110,-90.0000,bottom
-"D1","M4","Diode-SMA_Standard",54.8640,12.7000,-90.0000,bottom
+"D1","BZV55C-6,2V","D_MiniMELF",54.7370,13.2080,-90.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",55.3720,43.5000,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",15.8750,7.3660,180.0000,bottom
-"J1","3.3-5V","Straight_2x03",62.2300,19.8120,180.0000,top
+"J1","3.3-5V","Straight_2x03",61.5950,19.8120,180.0000,top
 "J2","HEADER_2x01_PARALLEL","Straight_2x01",25.1460,14.7320,90.0000,top
 "J3","HEADER_2x01_PARALLEL","Straight_2x01",22.6060,14.7320,90.0000,top
 "J4","HEADER_2x01_PARALLEL","Straight_2x01",56.6420,29.4640,180.0000,top
 "J5","HEADER_2x01_PARALLEL","Straight_2x01",39.3700,30.9880,90.0000,top
 "J6","HEADER_2x01_PARALLEL","Straight_2x01",36.8300,30.9880,90.0000,top
 "J7","HEADER_2x01_PARALLEL","Straight_2x01",56.6420,32.0040,180.0000,top
-"J8","MCX","SMA_Amphenol_901-144_Vertical",11.9380,31.4350,90.0000,top
+"J8","MCX","SMA_Amphenol_901-144_Vertical",11.9380,31.3690,90.0000,top
 "J9","HEADER_2x01_PARALLEL","Straight_2x01",56.6420,34.5440,180.0000,top
 "J10","HEADER_2x01_PARALLEL","Straight_2x01",56.6420,26.9240,180.0000,top
-"J11","HEADER_2x01","Straight_2x01",43.4340,29.8450,180.0000,top
+"J11","HEADER_2x01","Straight_2x01",44.8310,28.8290,180.0000,top
 "J12","Sensor Bias","Straight_2x03",10.4140,18.2880,0.0000,top
-"J13","HEADER_2x01","Straight_2x01",10.4140,23.3680,180.0000,top
-"L1","L","L_0805_2012Metric",11.9380,28.1940,90.0000,bottom
+"J13","HEADER_2x01","Straight_2x01",17.0180,23.1140,90.0000,top
+"L1","L","L_0805_2012Metric",11.9380,27.8130,90.0000,bottom
 "M1","HOLE","MountingHole_3mm",10.1600,40.6400,0.0000,top
 "M2","HOLE","MountingHole_3mm",60.9600,40.6400,0.0000,top
 "M3","HOLE","MountingHole_3mm",10.1600,10.1600,0.0000,top
@@ -52,8 +52,8 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R7","4k7","R_0805_2012Metric",27.9400,32.6390,90.0000,bottom
 "R8","1k","R_0805_2012Metric",22.6060,31.3690,180.0000,bottom
 "R9","100","R_0805_2012Metric",37.0840,25.9080,0.0000,bottom
-"R10","10","R_0805_2012Metric",17.2720,16.7640,-90.0000,bottom
-"R11","100","R_0805_2012Metric",11.1760,25.4000,180.0000,bottom
+"R10","10","R_0805_2012Metric",16.8910,16.7640,-90.0000,bottom
+"R11","100","R_0805_2012Metric",12.8270,24.5110,0.0000,bottom
 "R12","1k","R_0805_2012Metric",25.1460,20.8280,90.0000,bottom
 "R13","50","R_0805_2012Metric",35.8140,18.2880,180.0000,bottom
 "U1","TS3021ILT","SOT-23-5_HandSoldering",27.1780,25.5270,0.0000,bottom
