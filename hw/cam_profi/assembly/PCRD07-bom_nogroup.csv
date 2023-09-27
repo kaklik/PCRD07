@@ -1,7 +1,7 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id,ust_id2
 1,Unpolarized capacitor,C,C2,220pF,C_0805_2012Metric,1,~,5c70984712875079b91f8b3f,
 2,Unpolarized capacitor,C,C8,2n2,C_0805_2012Metric,1,~,5c70984712875079b91f8b46,
-3,,C_Small-Device-ISM02A-rescue,C1,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c,
+3,,C_Small-Device-ISM02A-rescue,C1C23C24C25,100nF,C_0805_2012Metric,4,,5c70984712875079b91f8b4c,
 4,Unpolarized capacitor,C,C9C10C12C13C14C15C17C18C20C22,100nF,C_0805_2012Metric,10,~,6508260b462c6d9e720541f1 5c70984812875079b91f8bf2,
 5,,EMI_Filter_C-Device,C21,1uF,FIR_0805,1,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb,5c70984412875079b91f880f,
 6,Polarized capacitor,C_Polarized,C3C5C6C7C11C16,10uF,CP_EIA-3216-18_Kemet-A,6,~,65089dd0462c6d9e720542b3,

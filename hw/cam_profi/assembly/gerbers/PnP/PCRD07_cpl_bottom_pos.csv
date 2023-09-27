@@ -21,6 +21,9 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C20","100nF","C_0805_2012Metric",42.6720,32.5120,180.0000,bottom
 "C21","1uF","FIR_0805",54.8640,20.8280,-90.0000,bottom
 "C22","100nF","C_0805_2012Metric",24.2570,37.2110,-90.0000,bottom
+"C23","100nF","C_0805_2012Metric",45.7200,12.7000,0.0000,bottom
+"C24","100nF","C_0805_2012Metric",36.9570,23.4950,180.0000,bottom
+"C25","100nF","C_0805_2012Metric",49.1490,23.4950,-90.0000,bottom
 "D1","BZV55C-6,2V","D_MiniMELF",54.7370,13.2080,-90.0000,bottom
 "FID1","Fiducial","Fiducial_1mm_Mask2mm",55.3720,43.5000,180.0000,bottom
 "FID2","Fiducial","Fiducial_1mm_Mask2mm",15.8750,7.3660,180.0000,bottom
