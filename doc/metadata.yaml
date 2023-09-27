@@ -12,8 +12,8 @@ homepage: false
 image_title: doc/gen/img/PCRD06A-bottom.png
 images:
 - doc/img/Proposed_improvement.png
-- doc/gen/img/PCRD07-top.png
 - doc/gen/img/PCRD07-bottom.png
+- doc/gen/img/PCRD07-top.png
 - doc/gen/PCRD07-schematic.svg
 - doc/gen/img/PCRD07-bottom.svg
 - doc/gen/img/PCRD07-top.svg
@@ -26,4 +26,4 @@ mod_scheme: doc/gen/PCRD07-schematic.pdf
 status: 1
 tags: []
 title: PCRD07
-updated: '2023-09-27T09:12:01.648001+00:00'
+updated: '2023-09-27T14:02:50.320667+00:00'
