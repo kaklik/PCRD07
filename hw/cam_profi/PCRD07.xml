@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PCRD07.kicad_sch</source>
-    <date>Tue Sep 26 14:20:34 2023</date>
+    <date>Tue Sep 26 21:15:02 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,18 +25,17 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>47uF</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
-      <datasheet>https://ecom.cz/data/exportdokumentu?soubor=D06641.pdf&amp;nazev=ECOM_06641_CTSMD-47-16-C-10--293D.pdf</datasheet>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8867</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
       </fields>
-      <libsource lib="PCRD06A-rescue" part="CP-Device" description=""/>
-      <property name="UST_ID" value="5c70984412875079b91f8867"/>
+      <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c8f5d34-52d4-48e5-b8d9-d0fe30a6b8de</tstamps>
+      <tstamps>121427d8-22b6-4057-aebe-30e103c43cef</tstamps>
     </comp>
     <comp ref="C2">
       <value>220pF</value>
@@ -353,23 +352,17 @@
       <tstamps>e9950f63-cab1-479c-9760-65411bb612fb</tstamps>
     </comp>
     <comp ref="D1">
-      <value>M4</value>
-      <footprint>Mlab_D:Diode-SMA_Standard</footprint>
+      <value>BZV55C-6,2V</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
       <fields>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-        <field name="UST_ID">5c70984512875079b91f88ac</field>
+        <field name="UST_ID">604b0326128750769e5b0f93</field>
       </fields>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="UST_ID" value="5c70984512875079b91f88ac"/>
-      <property name="Sim.Device" value="D"/>
-      <property name="Sim.Pins" value="1=K 2=A"/>
+      <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
+      <property name="UST_ID" value="604b0326128750769e5b0f93"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
-      <property name="ki_description" value="Diode, small symbol"/>
-      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000055622fb7</tstamps>
+      <tstamps>6e82404b-eab2-4a52-8eec-41178d58f009</tstamps>
     </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
@@ -984,27 +977,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Small">
-      <description>Diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Small</field>
-        <field name="Datasheet">~</field>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="L">
       <description>Inductor</description>
       <docs>~</docs>
@@ -1066,6 +1038,34 @@
       </fields>
       <pins>
         <pin num="1" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device-ISM02A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ISM02A-rescue" part="D_ZENER-MLAB_D">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ZENER-MLAB_D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x01">
@@ -1156,19 +1156,6 @@
         <field name="Value">Fiducial</field>
         <field name="Datasheet">~</field>
       </fields>
-    </libpart>
-    <libpart lib="PCRD06A-rescue" part="CP-Device">
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP-Device</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
     </libpart>
     <libpart lib="PCRD06A-rescue" part="EMI_Filter_C-Device">
       <fields>
