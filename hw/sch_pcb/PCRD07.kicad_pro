@@ -58,9 +58,7 @@
       ],
       "drc_exclusions": [
         "clearance|151950000|93736000|7396eb66-12c3-47cb-ab9c-1250f9d7c953|c9a9a9a5-a096-42eb-8e1d-3f11c20d6a38",
-        "clearance|157050000|95086000|1202afca-737c-4ace-bdba-42af281fdb4b|9f86d1bb-8a0d-46ab-818d-cfff577cf1cc",
         "clearance|158305050|95086000|1202afca-737c-4ace-bdba-42af281fdb4b|d5e189a5-36a7-474d-a5e9-0d3fe6ae12d3",
-        "clearance|158398000|95086000|7989f3e4-0147-4f3d-b72e-158ae11e70b4|9f86d1bb-8a0d-46ab-818d-cfff577cf1cc",
         "clearance|158398000|95086000|7989f3e4-0147-4f3d-b72e-158ae11e70b4|d5e189a5-36a7-474d-a5e9-0d3fe6ae12d3",
         "clearance|167054000|108872000|84e84357-ab5a-4dce-a886-bb29721f387b|9389e305-78c2-466c-a471-188ec74a445f",
         "clearance|167054000|109922000|9389e305-78c2-466c-a471-188ec74a445f|4317afa9-ca1b-40a3-8236-095499c80d2a"
@@ -126,7 +124,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -183,7 +181,7 @@
         }
       ],
       "track_widths": [
-        0.25,
+        0.0,
         0.3,
         0.4,
         0.5,
@@ -193,8 +191,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.0,
+          "drill": 0.0
         }
       ],
       "zones_allow_external_fillets": false,
