@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PCRD07.kicad_sch</source>
-    <date>Wed Sep 27 14:04:40 2023</date>
+    <date>Mon Oct  2 12:36:37 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -675,8 +675,11 @@
     <comp ref="R2">
       <value>50</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">651a94a7462c6d9e72055014</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="651a94a7462c6d9e72055014"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -732,8 +735,11 @@
     <comp ref="R6">
       <value>100</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -790,10 +796,10 @@
       <value>10</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8977</field>
+        <field name="UST_ID">5c70984512875079b91f896d</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8977"/>
+      <property name="UST_ID" value="5c70984512875079b91f896d"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -835,10 +841,10 @@
       <value>50</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f8977</field>
+        <field name="UST_ID">651a94a7462c6d9e72055014</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f8977"/>
+      <property name="UST_ID" value="651a94a7462c6d9e72055014"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PCRD07.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>

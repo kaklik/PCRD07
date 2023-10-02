@@ -16,8 +16,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 15,"Net tie, 2 pins",NetTie_2,JP1,Jumper_2_Bridged,NetTie-2_SMD_Pad0.5mm,1,~,,
 16,Inductor,L,L1,L,L_0805_2012Metric,1,~,626fd6fcdc56076e9a222966,
 17,Two-piece EMI RF shielding cabinet,RFShield_TwoPieces,M5,RFShield_TwoPieces,Laird_Technologies_BMI-S-204-F_32.00x32.00mm,1,~,5c72751c1287500b4e11301a,5c7275631287500b4e11302f
-18,Resistor,R,R1R10,10,R_0805_2012Metric,2,~,5c70984512875079b91f896d 5c70984512875079b91f8977,
-19,Resistor,R,R2R13,50,R_0805_2012Metric,2,~,5c70984512875079b91f8977,
+18,Resistor,R,R1R10,10,R_0805_2012Metric,2,~,5c70984512875079b91f896d,
+19,Resistor,R,R2R13,50,R_0805_2012Metric,2,~,651a94a7462c6d9e72055014,
 20,Resistor,R,R3R4R5R6R9R11,100,R_0805_2012Metric,6,~,5c70984512875079b91f8977,
 21,Resistor,R,R8R12,1k,R_0805_2012Metric,2,~,5c70984512875079b91f898c,
 22,Resistor,R,R7,4k7,R_0805_2012Metric,1,~,5c70984612875079b91f8995,
