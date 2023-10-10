@@ -14,7 +14,10 @@ module sensor_frame(){
             sphere(r = clearance);
           }
         translate([0,0,-sensor_height/2 + clearance/20])
-          cube([sensor_width + 2*sensor_height, sensor_lenght + 2*sensor_height, clearance/10], center=true);
+          minkowski(){
+            cube([sensor_width + 3*sensor_height, sensor_lenght + 3*sensor_height, clearance/10], center=true);
+            translate([0,0,clearance/20]) cylinder(r = clearance, h = clearance/10);
+          }
       }
       cube([sensor_width + clearance, sensor_lenght + clearance, sensor_height],center=true);
       cube([sensor_width-2, sensor_lenght-2, 2*sensor_height],center=true);
