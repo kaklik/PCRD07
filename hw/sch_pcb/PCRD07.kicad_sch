@@ -5532,7 +5532,7 @@
     (property "Reference" "#PWR012" (at 140.97 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 137.16 119.38 0)
+    (property "Value" "GNDA" (at 144.78 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 140.97 116.84 0)
