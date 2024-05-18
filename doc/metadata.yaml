@@ -9,7 +9,7 @@ github_description: 'Sample and hold circuit for photomultiplier and PIN diode p
 github_repo: PCRD07
 github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
-image_title: doc/gen/img/PCRD06A-bottom.png
+image_title: doc/img/PCRD07_top_big.jpg
 images:
 - doc/img/PCRD07_top_big.jpg
 - doc/img/PCRD07_bot_big.jpg
