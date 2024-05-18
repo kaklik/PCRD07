@@ -1,26 +1,26 @@
-description: 'Sample and hold circuit for photomultiplier and PIN diode pulse signal
-  processig '
+description: 'Sample and hold circuit for photomultiplier and semiconductor PIN diode
+  pulse signal processing '
 github_branch: PCRD07A
 github_branches:
 - PCRD06A
 - PCRD07A
-github_description: 'Sample and hold circuit for photomultiplier and PIN diode pulse
-  signal processig '
+github_description: 'Sample and hold circuit for photomultiplier and semiconductor
+  PIN diode pulse signal processing '
 github_repo: PCRD07
 github_url: https://github.com/mlab-modules/PCRD07
 homepage: false
 image_title: doc/img/PCRD07_top_big.jpg
 images:
-- doc/img/PCRD07_top_big.jpg
 - doc/img/PCRD07_bot_big.jpg
+- doc/img/PCRD07_top_big.jpg
+- doc/img/Proposed_improvement.png
 - doc/gen/img/PCRD07-top.png
 - doc/gen/img/PCRD07-bottom.png
-- doc/img/Proposed_improvement.png
-- hw/cam_profi/assembly/PCRD07-assembly_page_01.svg
-- hw/cam_profi/assembly/PCRD07-assembly_page_02.svg
 - doc/gen/PCRD07-schematic.svg
 - doc/gen/img/PCRD07-bottom.svg
 - doc/gen/img/PCRD07-top.svg
+- hw/cam_profi/assembly/PCRD07-assembly_page_01.svg
+- hw/cam_profi/assembly/PCRD07-assembly_page_02.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/PCRD07-ibom.html
@@ -30,5 +30,6 @@ tags:
 - cosmic-rays
 - mlab
 - mlab-module
+- ionizing-radiation
 title: PCRD07
-updated: '2024-05-15T11:35:57.849654+00:00'
+updated: '2024-05-18T17:46:02.092261+00:00'

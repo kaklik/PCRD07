@@ -5,4 +5,5 @@ eda:
   type: kicad
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/PCRD07
-summary: 'Sample and hold circuit for photomultiplier and PIN diode pulse signal processig '
+summary: 'Sample and hold circuit for photomultiplier and semiconductor PIN diode
+  pulse signal processing '
